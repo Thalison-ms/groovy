@@ -34,3 +34,8 @@ println vals2
 ```groovy
 sleep(5000)
 ```
+
+https://stackify.dev/
+https://www.tutorialspoint.com/groovy/groovy_lists_minus.htm
+https://www.baeldung.com/groovy-maps
+
