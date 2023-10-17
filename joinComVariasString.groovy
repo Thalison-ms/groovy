@@ -1,0 +1,1 @@
+listaTipos = tipoRegistro.collect{"'$it'"}.join(', ')
