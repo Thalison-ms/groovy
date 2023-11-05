@@ -1,6 +1,4 @@
 //====================================================================================================       COMANDOS GROOVY
-
-try{ } catch{ } finaly {}                           Aplica excessões
 .indexOf()                                          Exibe a posição que se encontra algo
 .min()                                              Retorna o valor minimo da lista
 .max()                                              Retorna o valor máximo da lista
@@ -22,7 +20,7 @@ try{ } catch{ } finaly {}                           Aplica excessões
 .sort()                                             Ordenar de forma crescente
 .sort().reverse                                     Ordena de forma decrescente
 []                                                  Cria lista vazia
-[:]                                                 Cria lista de mapa vazio
+[:]                                                 Cria mapa vazio
 .each                                               Percorre todos itens da lista
 .sum()                                              Realizar a soma dos valores dentro de uma lista
 .minus()                                            Remove as propriedades de um mapa incluso na lista
@@ -40,9 +38,9 @@ try{ } catch{ } finaly {}                           Aplica excessões
 .collect({[it.dataFeriado, it.descricao]})          Coleta vários arrays
 .collect({it.dataFeriado})                          Coleta apenas um array
 .padLeft(2, "0")                                    Adiciona uma informação na posição informada, a quantidade é de acordo com o valor informado, também pode ser utilizado o padRight
-.toLong                                             Pega só o inteiro de um valor
-findAll                                             Procure todos
-find                                                Busca o primeiro
+.toLong()                                           Pega só o inteiro de um valor
+.findAll                                            Procure todos
+.find                                               Busca o primeiro
 .keySet()                                           Acessa chaves de maps ou groupBys
 .groupBy                                            Agrupamento normal, informar o parametro das chaves
 .get()                                              Capturar uma posição ou valor, etc
@@ -50,24 +48,5 @@ find                                                Busca o primeiro
 .filter                                             Aplica somente no stream()
 .startsWith("cien")                                 Busca algo que comece com a informação passada
 .substring(0,3)                                     Exibe os valores de uma string a partir das posições informadas
-.take(50)                                           Quando informado um valor mairo do que a quantidade da variável não da erro
+.take(50)                                           Quando informado um valor maioR do que a quantidade da variável não da erro
 .subTexto(0,10)                                     Faz a mesma coisa que o primeiro
-
-//====================================================================================================       COMANDOS BETHA
-
-
-Datas.nomeDiaSemana(g)                              Pega uma informação específica de data
-Datas.hoje()                                        Pega data de hoje
-Datas.ano(hoje)                                     Pega o ano atual
-Numeros.randomico(100)                              Gera números aleatórios até 100
-
-//====================================================================================================       VALIDAÇÕES BETHA
-
-educa.'registro-avaliacao'.lista                    Quando a fonte for composta colocar entre aspas simples
-def envio = parametros.tipoEnvio.selecionado.valor  Define um parametro de lista simples
-def svc = "https://v1.utalk.chat/send/" + token + "/?cmd=chat&id=" + id + "&to=55" + telefone + "@c.us&msg=" + msg
-def enviando  = Http.servico(svc).GET()             Define um serviço para receber o http armazenado em svc e fazer uso do método GET
-enviando.conteudo()                                 Executa a ação
-
-
-
