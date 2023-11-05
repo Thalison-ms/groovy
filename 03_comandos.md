@@ -1,4 +1,6 @@
-//====================================================================================================       COMANDOS GROOVY
+## MÉTODOS GROOVY
+
+```
 .indexOf()                                          Exibe a posição que se encontra algo
 .min()                                              Retorna o valor minimo da lista
 .max()                                              Retorna o valor máximo da lista
@@ -50,3 +52,4 @@
 .substring(0,3)                                     Exibe os valores de uma string a partir das posições informadas
 .take(50)                                           Quando informado um valor maioR do que a quantidade da variável não da erro
 .subTexto(0,10)                                     Faz a mesma coisa que o primeiro
+```
