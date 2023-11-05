@@ -9,6 +9,7 @@
 .last()                                             Pega o ultimo
 .push()                                             Adiciona item no final da lista
 .pop()                                              Remove o primeiro item da lista
+.removeLast()                                       Remove o ultimo item da lista
 .abs()                                              Transforma um valor positivo ou negativo em valor absoluto, retornando sempre positivo
 .trim()                                             Remove espaços em branco a direita.
 .isEmpty()                                          Verificar se algo está como vazio ou null
