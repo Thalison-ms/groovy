@@ -4,6 +4,7 @@
 .indexOf()                                          Exibe a posição que se encontra algo
 .min()                                              Retorna o valor minimo da lista
 .max()                                              Retorna o valor máximo da lista
+lista.count(3)                                      Retorna a quantidade dentro da lista de acordo com o parâmetro informado
 .concat()                                           Concatena 2 strings
 .first()                                            Pega o primeiro
 .last()                                             Pega o ultimo
