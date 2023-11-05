@@ -1,6 +1,6 @@
 # OPERADORES
 
-> No groovy além de podermos utilizar os operadores normais, podemos também utilizar métodos para a execução dos mesmos veja alguns deles:
+> No groovy além de podermos utilizar os operadores normais, podemos também utilizar métodos para a execução dos mesmos, veja alguns deles:
 ```
 Operador normalmente                Método                Resultado
 X + Y                               X.plus(Y)             Soma
