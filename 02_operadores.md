@@ -2,7 +2,7 @@
 
 > No groovy além de podermos utilizar os operadores normais, podemos também utilizar métodos para a execução dos mesmos, veja alguns deles:
 ```
-Operador normalmente                Método                Resultado
+Operador normal                     Método                Resultado
 X + Y                               X.plus(Y)             Soma
 X – Y                               X.minus(Y)            Subtração
 X * Y                               X.multiply(Y)         Multiplicação
