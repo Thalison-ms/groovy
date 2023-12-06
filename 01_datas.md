@@ -1,8 +1,26 @@
 ## FORMATOS DE DATAS
 ```
-hoje    = new Date(); 
-amanha  = hoje.next();
-ontem   = hoje.previous();
+data = new Date();
+amanha  = data.next();
+ontem   = data.previous();
+
+println("-"*50)
+println(data)               //hoje
+println(data.next())        //Amanhã
+println(data.previous())    //Ontem
+
+println("-"*50)
+println(data.toOffsetDateTime())
+println(data.toLocalDateTime())
+println(data.toLocalTime())
+println(data.toOffsetTime())
+
+println("-"*50)
+println(data.toLocalDate())
+println(data.toYearMonth())
+println(data.toYear())
+println(data.toDayOfWeek())
+println(data.toMonth())
 ```
 
 ## SETANDO UMA DATA PREDEFINIDA
