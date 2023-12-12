@@ -53,6 +53,7 @@ ss               Segundo corrente (0 a 59)
 SSS              Milissegundo corrente(0 a 59)
 zzz              Fuso Horario abreviado
 zzzz             Fuso Horario completo
-
-FORMATOS BFC: https://test.betha.com.br/documentacao/bfc-script/2.7.X/index.html#datas
 ```
+## BFC
+
+https://test.betha.com.br/documentacao/bfc-script/2.7.X/index.html#datas
