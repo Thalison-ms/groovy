@@ -1,21 +1,17 @@
 ## FORMATOS DE DATAS
 ```
-data = new Date();
-amanha  = data.next();
-ontem   = data.previous();
+data = new Date(); //GROOVY
+data = Datas.hoje() //BFC
 
-println("-"*50)
-println(data)               //hoje
-println(data.next())        //Amanhã
-println(data.previous())    //Ontem
+ontem   = data.previous()
+amanha  = data.next()
 
-println("-"*50)
+
 println(data.toOffsetDateTime())
 println(data.toLocalDateTime())
 println(data.toLocalTime())
 println(data.toOffsetTime())
 
-println("-"*50)
 println(data.toLocalDate())
 println(data.toYearMonth())
 println(data.toYear())
@@ -57,4 +53,6 @@ ss               Segundo corrente (0 a 59)
 SSS              Milissegundo corrente(0 a 59)
 zzz              Fuso Horario abreviado
 zzzz             Fuso Horario completo
+
+FORMATOS BFC: https://test.betha.com.br/documentacao/bfc-script/2.7.X/index.html#datas
 ```
