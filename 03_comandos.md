@@ -15,7 +15,7 @@ lista.count(3)                                      Retorna a quantidade dentro 
 .trim()                                             Remove espaços em branco a direita.
 .isEmpty()                                          Verificar se algo está como vazio ou null
 .plus()                                             Pega o valor da variável e soma com o parâmetro passado nos parenteres
-.flatten()                                          Tranforma uma coleção que contém outra coleção em uma única coleção, ex: list = [1, [2, 3]], list.flatten(), result: [1, 2, 3]
+.flatten()                                          Tranforma uma lista que contém outra lista em uma única lista, ex: list = [1, [2, 3]], list.flatten(), result: [1, 2, 3]
 .capitalize()                                       Colocar a primeira letra da string em Maiusculo
 .min()                                              Pega o valor min da lista
 .max()                                              Pega o valor max da lista
