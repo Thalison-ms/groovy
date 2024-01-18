@@ -40,3 +40,10 @@ $P{ENTIDADE_NOME}.toUpperCase().equals("PREFEITURA MUNICIPAL DE PLANALTO DA SERR
 $P{ENTIDADE_NOME}.toUpperCase().equals("PREFEITURA MUNICIPAL ITIQUIRA")? "Itiquira, " + (new SimpleDateFormat("dd 'de' MMMM 'de' yyyy").format(new java.util.Date())) + " - " +
 "Betha Sistemas/STAF SISTEMAS": "Emitido em " + (new SimpleDateFormat("dd 'de' MMMM 'de' yyyy").format(new java.util.Date())) + " - " +
 "Betha Sistemas/STAF SISTEMAS"
+//==============================================================CABEÇALHO PRO NOME DA SECRETARIA
+$P{ENTIDADE_NOME}.toUpperCase().equals("PREFEITURA MUNICIPAL LUCAS DO RIO VERDE") ? "SECRETARIA MUNICIPAL DE EDUCAÇÃO" : 
+$P{ENTIDADE_NOME}.toUpperCase().equals("PREFEITURA MUNICIPAL DE CANARANA") ? "SECRETARIA MUNICIPAL DE EDUCAÇÃO E CULTURA" : 
+$P{ENTIDADE_NOME}.toUpperCase().equals("PREFEITURA MUNICIPAL ITIQUIRA") ? "SECRETARIA MUNICIPAL DE EDUCAÇÃO" :
+$P{ENTIDADE_NOME}.toUpperCase().equals("PREFEITURA MUNICIPAL DE PLANALTO DA SERRA") ? "SECRETARIA MUNICIPAL DE EDUCAÇÃO, ESPORTE E LAZER" :
+$P{ENTIDADE_NOME}.toUpperCase().equals("PREFEITURA MUNICIPAL DE MIRASSOL D OESTE") ? "SECRETARIA MUNICIPAL DE EDUCAÇÃO, ESPORTE, LAZER E CULTURA" : 
+$P{ENTIDADE_NOME}.toUpperCase().equals("PREFEITURA MUNICIPAL DE APIACAS") ? "SECRETARIA MUNICIPAL DE EDUCAÇÃO" : ""
