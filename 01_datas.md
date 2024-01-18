@@ -1,7 +1,11 @@
 ## FORMATOS DE DATAS
 ```
+hoje = new Date()
+println(hoje.format("dd 'de' MMMM 'de' yyyy"))
+
 data = new Date(); //GROOVY
 data = Datas.hoje() //BFC
+
 
 ontem   = data.previous()
 amanha  = data.next()
